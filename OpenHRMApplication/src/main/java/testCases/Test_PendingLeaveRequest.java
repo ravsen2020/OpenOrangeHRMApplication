@@ -33,9 +33,7 @@ public class Test_PendingLeaveRequest extends CommonFunctions{
 		getPendingLeaveRequest();
 		System.out.println(actualMessage);
 		Assert.assertEquals(actualMessage, "No Employees are on Leave Today");
-		
-		
-		
+			
 	}
 
 }
