@@ -25,7 +25,7 @@ public class Test_PendingLeaveRequest extends CommonFunctions{
 		PageFactory.initElements(driver,Dashboard_Page_Objects.class );
 		actualMessage=Dashboard_Page_Objects.employeesLeaveStatus.getText();	
 	}
-	@Test
+	@Test 
 	public void verifyPendingLeaveRequest()
 	{	
 		login();
