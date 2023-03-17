@@ -18,7 +18,7 @@ public class Test_UserRole extends CommonFunctions{
 		logger.info("Navigating to the user page");
 		UserRole_Page_Objects.adminLink.click();
 		
-		//UserRole_Page_Objects.userManagementLink.click(); not needed
+		//UserRole_Page_Objects.userManagementLink.click(); not needed 123
 		logger.info("selecting the userRole");
 		UserRole_Page_Objects.userRole.click();
 		UserRole_Page_Objects.userRole.sendKeys("ESS");
