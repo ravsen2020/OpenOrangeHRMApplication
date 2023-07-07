@@ -27,7 +27,7 @@ public class CommonFunctions {
 	public static ExtentSparkReporter spark=null;
 	public static ExtentTest testCase=null;
 	
-	//Logger logger=Logger.getLogger(CommonFunctions.class);  //...factory design pattern info,debug,warn,fatel, error
+	//Logger logger=Logger.getLogger(CommonFunctions.class); // A factory design pattern info,debug,warn, fatel, error
 	
 	public Properties loadPropertiesFile() throws IOException
 	{	
